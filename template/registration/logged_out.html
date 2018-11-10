@@ -1,0 +1,10 @@
+<!-- Save this page as logged_out.html to see this page in action #What!! -->
+<html>
+	<head><title>Logout</title></head>
+	<body>
+		{% block content %}
+		<p>Logged Out!!</p>
+		<a href="{% url 'login' %}">Click here to login again.</a>
+		{% endblock %}
+	</body>
+</html>
